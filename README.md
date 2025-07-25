@@ -1,7 +1,7 @@
 IoT Device Security Manager
 A Python and Flask-based web application that scans a local network to identify connected devices, discover open ports, and highlight potential security vulnerabilities.
 
-![Screenshot](screenshot.png)
+![Screenshot](Screenshot.png)
 
 Features
 Network Discovery: Uses Nmap to perform a comprehensive scan of a specified network range (e.g., 192.168.1.0/24).
