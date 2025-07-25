@@ -1,0 +1,16 @@
+body {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.blinking-cursor {
+    animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+    from, to {
+        border-right-color: transparent;
+    }
+    50% {
+        border-right-color: #34d399; /* emerald-400 */
+    }
+}
